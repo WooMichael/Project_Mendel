@@ -1,0 +1,6 @@
+These are all the same set of sequences created from the
+raw data back from the sequencing lab. The numbers in
+the names indicate the threshold for determining bases
+at positions. If the probability that the base assignment
+was too low, an N is inserted instead. The higher the
+threshold, the more Ns.
