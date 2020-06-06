@@ -773,7 +773,7 @@ configure:6606: gcc -o conftest -O3   conftest.c  >&5
 conftest.c:82:6: warning: conflicting types for built-in function 'erfc' [-Wbuiltin-declaration-mismatch]
  char erfc ();
       ^~~~
-/tmp/cc9ZnxJF.o: In function `main':
+/tmp/ccKEIsqD.o: In function `main':
 conftest.c:(.text.startup+0x7): undefined reference to `erfc'
 collect2: error: ld returned 1 exit status
 configure:6606: $? = 1
@@ -988,13 +988,9 @@ config.status:956: creating easel/miniapps/esl-ssdraw.man
 config.status:956: creating easel/miniapps/esl-translate.man
 config.status:956: creating easel/miniapps/esl-weight.man
 config.status:956: creating easel/decoy_config.h
-config.status:1131: easel/decoy_config.h is unchanged
 config.status:956: creating src/p7_config.h
-config.status:1131: src/p7_config.h is unchanged
 config.status:956: creating easel/esl_config.h
-config.status:1131: easel/esl_config.h is unchanged
 config.status:956: creating libdivsufsort/divsufsort.h
-config.status:1131: libdivsufsort/divsufsort.h is unchanged
 config.status:1157: linking src/impl_sse to src/impl
 
 ## ---------------- ##
