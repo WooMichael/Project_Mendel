@@ -1,0 +1,6 @@
+@Author Michael Woo
+In the folder named Metadata we have the following:
+
+kaplan_sequences : this is a directory of all the sequences gathered in my research's professor's laboratory...
+
+ALL_Kaplan_Sequences.txt : this is a text file of evert single sequence from the kaplan_sequence directory all in one placed... 
