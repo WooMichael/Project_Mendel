@@ -1,0 +1,44 @@
+# target name                    accession  query name                 accession  hmmfrom hmm to alifrom  ali to envfrom  env to  modlen strand   E-value  score  bias  description of target
+#            ------------------- ----------       -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+Spongiibacteraceae               -          LKAP-TSAKG2_F03_021_2018_2 -               15     177       3     170       1     178    1462    +     6.5e-08   22.1   3.5  -
+Wenzhouxiangellaceae             -          LKAP-TSAKG2_F03_021_2018_2 -               23     139      19     130       2     154    1472    +     1.9e-06   17.3   1.3  -
+Halieaceae                       -          LKAP-TSAKG2_F03_021_2018_2 -               77     178      71     168      50     175    1484    +     4.1e-06   16.3   3.9  -
+Microbulbiferaceae               -          LKAP-TSAKG2_F03_021_2018_2 -               67     172      68     169      41     176    1478    +     1.2e-05   14.9   3.4  -
+Alcanivoracaceae                 -          LKAP-TSAKG2_F03_021_2018_2 -               98     193      74     165      48     177    1504    +     2.9e-05   13.3   3.2  -
+Arenicellaceae                   -          LKAP-TSAKG2_F03_021_2018_2 -               68     130      69     128      47     150    1488    +     3.3e-05   13.4   0.8  -
+Aurantimonadaceae                -          LKAP-TSAKG2_F03_021_2018_2 -               69     141      65     134      29     154    1444    +     3.6e-05   13.5   0.3  -
+Unclassified_Oceanospirillales   -          LKAP-TSAKG2_F03_021_2018_2 -               74     141      69     133      48     154    1483    +     4.8e-05   12.5   0.9  -
+Granulosicoccaceae               -          LKAP-TSAKG2_F03_021_2018_2 -               66     139      64     130      32     150    1471    +     7.7e-05   12.2   0.0  -
+Thioalkalispiraceae              -          LKAP-TSAKG2_F03_021_2018_2 -               93     193      72     168      47     177    1478    +     7.9e-05   11.9   3.4  -
+Nevskiaceae                      -          LKAP-TSAKG2_F03_021_2018_2 -               61     133      60     129      38     150    1470    +     0.00011   11.9   0.0  -
+Saccharospirillaceae             -          LKAP-TSAKG2_F03_021_2018_2 -               73     135      68     127      21     149    1468    +     0.00029   10.1   0.3  -
+Kangiellaceae                    -          LKAP-TSAKG2_F03_021_2018_2 -               29     143      16     125       2     146    1479    +      0.0003   10.1   1.7  -
+Anaplasmataceae                  -          LKAP-TSAKG2_F03_021_2018_2 -               79     146      59     123      31     142    1438    +     0.00049    9.7   0.9  -
+Bernardetiaceae                  -          LKAP-TSAKG2_F03_021_2018_2 -               61     138      65     134      41     154    1484    +     0.00095    8.4   0.2  -
+Unclassified_Alteromonadales     -          LKAP-TSAKG2_F03_021_2018_2 -               71     136      65     127      33     149    1467    +       0.001    8.2   0.0  -
+Hyphomonadaceae                  -          LKAP-TSAKG2_F03_021_2018_2 -               39     121      53     130      30     150    1399    +      0.0011    8.6   0.0  -
+Thermoleophilaceae               -          LKAP-TSAKG2_F03_021_2018_2 -               45     126      52     129      31     149    1486    +      0.0015    7.7   0.0  -
+Unclassified_Alphaproteobacteria -          LKAP-TSAKG2_F03_021_2018_2 -               39     122      53     129      29     149    1412    +      0.0015    8.2   0.1  -
+Unclassified_Rhizobiales         -          LKAP-TSAKG2_F03_021_2018_2 -               47     130      51     129      28     150    1437    +      0.0016    8.0   0.0  -
+Halothiobacillaceae              -          LKAP-TSAKG2_F03_021_2018_2 -               90     155      67     129      28     151    1501    +      0.0016    7.7   0.0  -
+Acidiferrobacteraceae            -          LKAP-TSAKG2_F03_021_2018_2 -               70     125      73     125      63     146    1456    +      0.0021    7.5   3.6  -
+Cohaesibacteraceae               -          LKAP-TSAKG2_F03_021_2018_2 -               75     138      67     127      46     147    1416    +      0.0027    7.2   1.4  -
+Litoricolaceae                   -          LKAP-TSAKG2_F03_021_2018_2 -               81     144      69     129      48     150    1474    +      0.0028    7.0   0.9  -
+Coxiellaceae                     -          LKAP-TSAKG2_F03_021_2018_2 -               79     139      71     128      50     148    1473    +      0.0037    6.5   1.8  -
+Puniceicoccaceae                 -          LKAP-TSAKG2_F03_021_2018_2 -               63     183      48     153      19     172    1485    +      0.0042    6.3   1.6  -
+Parvularculaceae                 -          LKAP-TSAKG2_F03_021_2018_2 -               73     139      65     128      30     149    1429    +      0.0056    6.4   0.2  -
+Cardiobacteriaceae               -          LKAP-TSAKG2_F03_021_2018_2 -               24     177      12     163       2     175    1462    +       0.012    5.1   2.4  -
+Acidithiobacillaceae             -          LKAP-TSAKG2_F03_021_2018_2 -               68     128      71     128      49     148    1457    +       0.014    4.6   1.6  -
+Methylothermaceae                -          LKAP-TSAKG2_F03_021_2018_2 -               93     152      72     128      52     148    1491    +       0.026    3.7   1.7  -
+Aerococcaceae                    -          LKAP-TSAKG2_F03_021_2018_2 -               16     139      12     127       1     148    1474    +       0.032    3.4   1.6  -
+Succinivibrionaceae              -          LKAP-TSAKG2_F03_021_2018_2 -               83     141      72     127      48     148    1474    +       0.039    3.1   1.3  -
+#
+# Program:         hmmscan
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SCAN
+# Query file:      /root/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/LKAP-TSAKG2_F03_021_2018_2.fa
+# Target file:     /root/Github/Project_Mendel/Data/Family_Database
+# Option settings: nhmmscan --tblout /root/Github/Project_Mendel/Data/MSA_Scans_From_nhmmerscan/LKAP-TSAKG2_F03_021_2018_2.txt --noali /root/Github/Project_Mendel/Data/Family_Database /root/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/LKAP-TSAKG2_F03_021_2018_2.fa 
+# Current dir:     /root/Github/Project_Mendel/source_code
+# Date:            Wed Jun 10 11:10:23 2020
+# [ok]

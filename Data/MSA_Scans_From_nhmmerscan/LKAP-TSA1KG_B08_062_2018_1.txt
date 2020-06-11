@@ -1,0 +1,35 @@
+# target name                  accession  query name                 accession  hmmfrom hmm to alifrom  ali to envfrom  env to  modlen strand   E-value  score  bias  description of target
+#          ------------------- ----------       -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+Succinivibrionaceae            -          LKAP-TSA1KG_B08_062_2018_1 -               14     176       8     191       4     195    1474    +     1.5e-09   27.8   2.1  -
+Moritellaceae                  -          LKAP-TSA1KG_B08_062_2018_1 -               26     189       8     194       3     195    1501    +     3.6e-09   26.4   2.5  -
+Unclassified_Alteromonadales   -          LKAP-TSA1KG_B08_062_2018_1 -               11     173       8     193       3     195    1467    +     1.3e-08   24.5   2.6  -
+Kangiellaceae                  -          LKAP-TSA1KG_B08_062_2018_1 -               21     184       9     195       4     195    1479    +     1.8e-08   24.1   2.7  -
+Unclassified_Oceanospirillales -          LKAP-TSA1KG_B08_062_2018_1 -               16     172       8     193       3     195    1483    +     1.9e-08   23.9   2.3  -
+Halieaceae                     -          LKAP-TSA1KG_B08_062_2018_1 -               19     173       8     193       4     195    1484    +     4.1e-08   23.0   2.4  -
+Alcanivoracaceae               -          LKAP-TSA1KG_B08_062_2018_1 -               31     187       8     189       4     195    1504    +     1.8e-07   20.7   2.3  -
+Psychromonadaceae              -          LKAP-TSA1KG_B08_062_2018_1 -               11     162       8     178       3     195    1467    +     3.4e-07   20.1   2.0  -
+Granulosicoccaceae             -          LKAP-TSA1KG_B08_062_2018_1 -               14     174      11     194       4     195    1471    +     1.4e-06   18.0   2.6  -
+Francisellaceae                -          LKAP-TSA1KG_B08_062_2018_1 -               24     174      11     192       3     195    1509    +     3.1e-06   16.8   2.3  -
+Nevskiaceae                    -          LKAP-TSA1KG_B08_062_2018_1 -               22     166      10     191       4     195    1470    +     3.6e-06   16.9   2.3  -
+Arenicellaceae                 -          LKAP-TSA1KG_B08_062_2018_1 -               73     168      87     195      63     195    1488    +     4.2e-06   16.5   2.4  -
+Aerococcaceae                  -          LKAP-TSA1KG_B08_062_2018_1 -               14     166      11     180       4     194    1474    +     4.8e-06   16.2   1.1  -
+Wenzhouxiangellaceae           -          LKAP-TSA1KG_B08_062_2018_1 -               14     170      11     190       3     195    1472    +     6.3e-06   15.7   1.9  -
+Cardiobacteriaceae             -          LKAP-TSA1KG_B08_062_2018_1 -               20     165       9     178       4     195    1462    +     8.7e-06   15.6   2.1  -
+Coxiellaceae                   -          LKAP-TSA1KG_B08_062_2018_1 -               12     161       9     175       3     195    1473    +     3.4e-05   13.4   2.0  -
+Acidiferrobacteraceae          -          LKAP-TSA1KG_B08_062_2018_1 -               72     161      88     189      64     195    1456    +     7.9e-05   12.3   2.5  -
+Bartonellaceae                 -          LKAP-TSA1KG_B08_062_2018_1 -               12     145       9     179       4     192    1410    +      0.0001   12.0   0.8  -
+Anaplasmataceae                -          LKAP-TSA1KG_B08_062_2018_1 -               23     172       9     175       4     192    1438    +     0.00068    9.4   2.1  -
+Leptospiraceae                 -          LKAP-TSA1KG_B08_062_2018_1 -               59     145      84     177      57     194    1433    +     0.00081    8.9   2.1  -
+Bdellovibrionaceae             -          LKAP-TSA1KG_B08_062_2018_1 -               67     149      87     178      67     192    1430    +      0.0011    8.5   1.9  -
+Caldilineaceae                 -          LKAP-TSA1KG_B08_062_2018_1 -               82     160      88     175      66     194    1434    +      0.0029    7.1   1.6  -
+Polyangiaceae                  -          LKAP-TSA1KG_B08_062_2018_1 -               87     165      84     171      64     191    1550    +       0.023    4.0   2.0  -
+#
+# Program:         hmmscan
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SCAN
+# Query file:      /root/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/LKAP-TSA1KG_B08_062_2018_1.fa
+# Target file:     /root/Github/Project_Mendel/Data/Family_Database
+# Option settings: nhmmscan --tblout /root/Github/Project_Mendel/Data/MSA_Scans_From_nhmmerscan/LKAP-TSA1KG_B08_062_2018_1.txt --noali /root/Github/Project_Mendel/Data/Family_Database /root/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/LKAP-TSA1KG_B08_062_2018_1.fa 
+# Current dir:     /root/Github/Project_Mendel/source_code
+# Date:            Wed Jun 10 11:04:06 2020
+# [ok]

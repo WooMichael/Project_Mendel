@@ -1,0 +1,22 @@
+# target name        accession  query name           accession  hmmfrom hmm to alifrom  ali to envfrom  env to  modlen strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+Spongiibacteraceae   -          B1b2_1_forward       -              113     182      75     141      55     145    1462    +        0.01    4.6   6.6  -
+Halieaceae           -          B1b2_1_forward       -              117     187      76     143      56     146    1484    +       0.016    4.1   6.2  -
+Halothiobacillaceae  -          B1b2_1_forward       -              134     204      76     143      56     146    1501    +         0.1    1.4   5.7  -
+Alcanivoracaceae     -          B1b2_1_forward       -              135     205      76     143      56     145    1504    +        0.23    0.1   6.0  -
+Thioalkalispiraceae  -          B1b2_1_forward       -              132     198      76     139      56     144    1478    +        0.24    0.1   6.2  -
+Aeromonadaceae       -          B1b2_1_forward       -              130     200      75     142      69     145    1496    +         0.3   -0.4   6.5  -
+Microbulbiferaceae   -          B1b2_1_forward       -              110     177      76     140      56     144    1478    +         0.3    0.0   6.3  -
+Succinivibrionaceae  -          B1b2_1_forward       -              121     187      75     138      54     143    1474    +        0.35   -0.4   7.1  -
+Litoricolaceae       -          B1b2_1_forward       -              123     189      76     139      55     143    1474    +        0.36   -0.3   6.5  -
+Ferrimonadaceae      -          B1b2_1_forward       -              126     194      75     140      72     145    1475    +         1.4   -2.5   6.6  -
+#
+# Program:         hmmscan
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SCAN
+# Query file:      /root/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/B1b2_1_forward.fa
+# Target file:     /root/Github/Project_Mendel/Data/Family_Database
+# Option settings: nhmmscan --tblout /root/Github/Project_Mendel/Data/MSA_Scans_From_nhmmerscan/B1b2_1_forward.txt --noali /root/Github/Project_Mendel/Data/Family_Database /root/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/B1b2_1_forward.fa 
+# Current dir:     /root/Github/Project_Mendel/source_code
+# Date:            Wed Jun 10 10:37:22 2020
+# [ok]

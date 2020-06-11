@@ -1,0 +1,14 @@
+# target name         accession  query name                 accession  hmmfrom hmm to alifrom  ali to envfrom  env to  modlen strand   E-value  score  bias  description of target
+# ------------------- ----------       -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+Listeriaceae          -          LKAP-TSAKG2_E04_024_2018_2 -               55     250      61     253      40     269    1448    +       0.024    4.7   4.6  -
+Sporolactobacillaceae -          LKAP-TSAKG2_E04_024_2018_2 -               76     261      68     256      39     272    1503    +       0.084    2.6   3.9  -
+#
+# Program:         hmmscan
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SCAN
+# Query file:      /root/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/LKAP-TSAKG2_E04_024_2018_2.fa
+# Target file:     /root/Github/Project_Mendel/Data/Family_Database
+# Option settings: nhmmscan --tblout /root/Github/Project_Mendel/Data/MSA_Scans_From_nhmmerscan/LKAP-TSAKG2_E04_024_2018_2.txt --noali /root/Github/Project_Mendel/Data/Family_Database /root/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/LKAP-TSAKG2_E04_024_2018_2.fa 
+# Current dir:     /root/Github/Project_Mendel/source_code
+# Date:            Wed Jun 10 11:10:02 2020
+# [ok]
