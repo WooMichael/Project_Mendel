@@ -1,0 +1,56 @@
+# target name          accession  query name              accession  hmmfrom hmm to alifrom  ali to envfrom  env to  modlen strand   E-value  score  bias  description of target
+#  ------------------- ----------    -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+Vibrionaceae           -          LKAP.g-Gut1_A03_031.seq -              140     821     112     781      91     798    1474    +     1.5e-21   71.0   3.4  -
+Budviciaceae           -          LKAP.g-Gut1_A03_031.seq -              121     800     113     780      92     801    1483    +     3.8e-16   53.2   2.9  -
+Alteromonadales        -          LKAP.g-Gut1_A03_031.seq -              140     772     118     748      96     784    1468    +     6.7e-16   52.1   2.9  -
+Thorselliaceae         -          LKAP.g-Gut1_A03_031.seq -              100     780     113     781      93     802    1419    +       4e-15   49.8   2.9  -
+Idiomarinaceae         -          LKAP.g-Gut1_A03_031.seq -              131     772     113     748      93     768    1466    +     1.2e-14   48.0   2.9  -
+Woeseiaceae            -          LKAP.g-Gut1_A03_031.seq -              128     833     103     794      82     814    1476    +     1.8e-14   48.4   3.4  -
+Gammaproteobacteria    -          LKAP.g-Gut1_A03_031.seq -              120     812     103     784      83     807    1481    +     8.3e-14   45.3   3.4  -
+Shewanellaceae         -          LKAP.g-Gut1_A03_031.seq -              134     795     114     768      94     788    1483    +     1.1e-13   45.0   3.2  -
+Yersiniaceae           -          LKAP.g-Gut1_A03_031.seq -              130     809     112     779      92     799    1473    +     1.2e-13   44.9   3.0  -
+Alteromonadaceae       -          LKAP.g-Gut1_A03_031.seq -              120     790     104     766      84     786    1468    +     1.5e-13   44.6   3.6  -
+Aeromonadaceae         -          LKAP.g-Gut1_A03_031.seq -              145     807     113     768      93     788    1496    +     1.6e-13   44.3   3.2  -
+Pectobacteriaceae      -          LKAP.g-Gut1_A03_031.seq -              128     806     113     779      93     799    1477    +     1.9e-13   44.2   3.1  -
+Erwiniaceae            -          LKAP.g-Gut1_A03_031.seq -              127     489     114     476      93     788    1483    +     2.3e-13   44.0   2.0  -
+Psychromonadaceae      -          LKAP.g-Gut1_A03_031.seq -              134     768     116     744      94     765    1467    +     2.8e-13   43.7   3.2  -
+Alcanivoracaceae       -          LKAP.g-Gut1_A03_031.seq -              139     713     103     661      83     768    1504    +     5.1e-13   42.6   4.1  -
+Colwelliaceae          -          LKAP.g-Gut1_A03_031.seq -              133     793     115     767      93     782    1467    +     5.1e-13   42.9   3.0  -
+Hafniaceae             -          LKAP.g-Gut1_A03_031.seq -              125     787     113     768      93     798    1459    +     6.3e-13   42.4   3.0  -
+Porticoccaceae         -          LKAP.g-Gut1_A03_031.seq -              122     796     103     770      76     802    1497    +       1e-12   42.7   3.5  -
+Pseudoalteromonadaceae -          LKAP.g-Gut1_A03_031.seq -              131     786     112     765      89     785    1469    +     1.3e-12   41.4   3.5  -
+Pseudomonadaceae       -          LKAP.g-Gut1_A03_031.seq -              117     681      95     646      75     768    1491    +     1.6e-12   41.1   3.7  -
+Algiphilaceae          -          LKAP.g-Gut1_A03_031.seq -              139     818     107     782      83     803    1501    +     1.9e-12   41.6   3.5  -
+Oceanospirillales      -          LKAP.g-Gut1_A03_031.seq -              133     794     111     765      91     788    1489    +     1.9e-12   40.7   3.5  -
+Enterobacteriaceae     -          LKAP.g-Gut1_A03_031.seq -              131     493     113     475      93     788    1465    +       2e-12   40.9   1.8  -
+Morganellaceae         -          LKAP.g-Gut1_A03_031.seq -              134     796     113     768      93     799    1487    +     4.4e-12   39.8   2.7  -
+Halieaceae             -          LKAP.g-Gut1_A03_031.seq -              120     428     102     412      82     433    1484    +     6.1e-12   39.2   0.4  -
+Immundisolibacteraceae -          LKAP.g-Gut1_A03_031.seq -              149     822     102     768      74     788    1555    +     1.3e-11   38.8   3.8  -
+Microbulbiferaceae     -          LKAP.g-Gut1_A03_031.seq -              114     485     103     474      83     496    1480    +     1.4e-11   38.2   0.4  -
+Ferrimonadaceae        -          LKAP.g-Gut1_A03_031.seq -              141     801     113     766      93     786    1475    +     4.3e-11   36.2   3.3  -
+Spongiibacteraceae     -          LKAP.g-Gut1_A03_031.seq -              117     424     102     411      82     433    1462    +     5.9e-11   35.9   0.3  -
+Pasteurellaceae        -          LKAP.g-Gut1_A03_031.seq -              130     490     111     469      90     495    1422    +     6.7e-11   35.9   0.4  -
+Lysobacteraceae        -          LKAP.g-Gut1_A03_031.seq -              122     426     103     409      83     431    1484    +     3.1e-10   33.6   0.3  -
+Hahellaceae            -          LKAP.g-Gut1_A03_031.seq -              128     432     112     418      93     471    1473    +       5e-10   33.0   0.7  -
+Methylococcaceae       -          LKAP.g-Gut1_A03_031.seq -              126     433     102     411      82     438    1481    +     6.5e-10   32.5   0.3  -
+Thermoleophilaceae     -          LKAP.g-Gut1_A03_031.seq -              110     427     103     412      83     434    1494    +     9.8e-10   31.9   0.2  -
+Cellvibrionaceae       -          LKAP.g-Gut1_A03_031.seq -              119     453     103     434      84     495    1472    +     1.3e-09   31.6   0.4  -
+Legionellaceae         -          LKAP.g-Gut1_A03_031.seq -              117     769     103     748      83     768    1446    +     2.3e-09   30.9   3.4  -
+Halomonadaceae         -          LKAP.g-Gut1_A03_031.seq -              119     409     103     387      84     430    1466    +     2.5e-09   30.5   0.1  -
+Ectothiorhodospiraceae -          LKAP.g-Gut1_A03_031.seq -              121     455     100     426      82     471    1463    +     4.2e-09   30.0   0.7  -
+Moritellaceae          -          LKAP.g-Gut1_A03_031.seq -              147     446     114     413      95     433    1501    +     7.9e-09   28.8   0.4  -
+Nevskiaceae            -          LKAP.g-Gut1_A03_031.seq -              117     407     104     388      86     427    1470    +     2.3e-08   27.7   0.3  -
+Halothiobacillaceae    -          LKAP.g-Gut1_A03_031.seq -              136     445     101     411      82     435    1500    +     7.7e-08   25.7   0.3  -
+Salinisphaeraceae      -          LKAP.g-Gut1_A03_031.seq -               99     378      98     374      79     395    1429    +     8.3e-08   25.7   0.2  -
+Rhodanobacteraceae     -          LKAP.g-Gut1_A03_031.seq -              125     416     106     391      86     411    1473    +     2.7e-07   23.9   0.3  -
+Gloeomargaritaceae     -          LKAP.g-Gut1_A03_031.seq -              204     407     198     399     163     625    1482    +     0.00027   14.9   1.3  -
+#
+# Program:         hmmscan
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SCAN
+# Query file:      /root/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/LKAP.g-Gut1_A03_031.seq.fa
+# Target file:     /root/Github/Database/Family_DB
+# Option settings: nhmmscan --tblout /root/Github/Project_Mendel/Data/MSA_Scans_From_nhmmerscan/LKAP.g-Gut1_A03_031.seq.txt --noali /root/Github/Database/Family_DB /root/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/LKAP.g-Gut1_A03_031.seq.fa 
+# Current dir:     /root/Github/Project_Mendel/source_code
+# Date:            Mon Jun 22 11:17:32 2020
+# [ok]

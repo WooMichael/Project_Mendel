@@ -1,0 +1,29 @@
+# target name          accession  query name                 accession  hmmfrom hmm to alifrom  ali to envfrom  env to  modlen strand   E-value  score  bias  description of target
+#  ------------------- ----------       -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+Planococcaceae         -          LKAP-TSAKG2_D02_010_2018_2 -               14     106       9      95       1      98    1491    +     9.3e-07   18.5   7.2  -
+Paenibacillaceae       -          LKAP-TSAKG2_D02_010_2018_2 -               17     113      11      98       2      98    1493    +     0.00048    9.7   6.7  -
+Microbacteriaceae      -          LKAP-TSAKG2_D02_010_2018_2 -               31     108      23      96       3      98    1464    +       0.014    4.7   6.1  -
+Thermoactinomycetaceae -          LKAP-TSAKG2_D02_010_2018_2 -               34     110      21      96       1      98    1495    +       0.022    4.3   6.7  -
+Rickettsiaceae         -          LKAP-TSAKG2_D02_010_2018_2 -               29     105      24      98       8      98    1430    +       0.038    3.5   4.4  -
+Moraxellaceae          -          LKAP-TSAKG2_D02_010_2018_2 -               26      81      24      79       4      96    1468    +       0.051    3.0   5.0  -
+Demequinaceae          -          LKAP-TSAKG2_D02_010_2018_2 -               29      95      24      88       4      98    1478    +       0.089    2.1   5.6  -
+Beutenbergiaceae       -          LKAP-TSAKG2_D02_010_2018_2 -               20      93      16      88       1      98    1472    +       0.098    1.9   6.6  -
+Sanguibacteraceae      -          LKAP-TSAKG2_D02_010_2018_2 -               46     112      24      88       4      98    1483    +        0.12    1.7   5.5  -
+Dermabacteraceae       -          LKAP-TSAKG2_D02_010_2018_2 -               38     105      24      89       4      98    1470    +        0.24    0.5   5.4  -
+Thorselliaceae         -          LKAP-TSAKG2_D02_010_2018_2 -                2      58      24      79      23      98    1419    +        0.25    0.6   3.9  -
+Trueperaceae           -          LKAP-TSAKG2_D02_010_2018_2 -               19      86      24      89       6      97    1461    +        0.53    0.3   5.1  -
+Cellulomonadaceae      -          LKAP-TSAKG2_D02_010_2018_2 -               33     104      24      92       3      98    1465    +        0.59   -0.5   5.7  -
+Pseudomonadaceae       -          LKAP-TSAKG2_D02_010_2018_2 -               37      92      25      79       5      97    1491    +        0.63   -0.8   4.6  -
+Dermacoccaceae         -          LKAP-TSAKG2_D02_010_2018_2 -               47      92      44      88      23      98    1456    +        0.64   -0.8   2.9  -
+Ruaniaceae             -          LKAP-TSAKG2_D02_010_2018_2 -               75     119      45      88       5      98    1531    +        0.97   -1.6   4.3  -
+Spirochaetaceae        -          LKAP-TSAKG2_D02_010_2018_2 -               23     101      15      89       1      98    1486    +         3.7   -3.2   6.6  -
+#
+# Program:         hmmscan
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SCAN
+# Query file:      /root/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/LKAP-TSAKG2_D02_010_2018_2.fa
+# Target file:     /root/Github/Database/Family_DB
+# Option settings: nhmmscan --tblout /root/Github/Project_Mendel/Data/MSA_Scans_From_nhmmerscan/LKAP-TSAKG2_D02_010_2018_2.txt --noali /root/Github/Database/Family_DB /root/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/LKAP-TSAKG2_D02_010_2018_2.fa 
+# Current dir:     /root/Github/Project_Mendel/source_code
+# Date:            Mon Jun 22 11:12:57 2020
+# [ok]

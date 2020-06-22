@@ -1,0 +1,13 @@
+# target name        accession  query name           accession  hmmfrom hmm to alifrom  ali to envfrom  env to  modlen strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+Rhodothalassiaceae   -          LKAP-Gut2_H09        -              199     378     174     353     152     481    1318    +       0.081    5.9   0.4  -
+#
+# Program:         hmmscan
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SCAN
+# Query file:      /root/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/LKAP-Gut2_H09.fa
+# Target file:     /root/Github/Database/Family_DB
+# Option settings: nhmmscan --tblout /root/Github/Project_Mendel/Data/MSA_Scans_From_nhmmerscan/LKAP-Gut2_H09.txt --noali /root/Github/Database/Family_DB /root/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/LKAP-Gut2_H09.fa 
+# Current dir:     /root/Github/Project_Mendel/source_code
+# Date:            Mon Jun 22 10:47:21 2020
+# [ok]

@@ -1,0 +1,30 @@
+# target name        accession  query name            accession  hmmfrom hmm to alifrom  ali to envfrom  env to  modlen strand   E-value  score  bias  description of target
+#------------------- ----------  -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+Bernardetiaceae      -          LKAP-Gut2_H12_082.seq -             1450    1472       1      23       1      36    1481    +         0.1    3.9   0.9  -
+Phormidiaceae        -          LKAP-Gut2_H12_082.seq -             1435    1459       1      25       1      45    1483    +        0.15    3.7   1.0  -
+Sterolibacteriaceae  -          LKAP-Gut2_H12_082.seq -              264     371     193     298     171     318    1531    +        0.24    3.5   3.0  -
+Gaiellaceae          -          LKAP-Gut2_H12_082.seq -              264     366     187     288     163     309    1544    +        0.25    3.2   2.7  -
+Prochlorococcaceae   -          LKAP-Gut2_H12_082.seq -             1416    1440       1      25       1      41    1465    +        0.28    2.5   0.7  -
+Ventosimonadaceae    -          LKAP-Gut2_H12_082.seq -              251     383     167     275     118     300    1489    +         0.3    3.1   1.9  -
+Budviciaceae         -          LKAP-Gut2_H12_082.seq -              236     331     192     277     172     296    1483    +        0.36    2.0   2.8  -
+Iodidimonadaceae     -          LKAP-Gut2_H12_082.seq -              229     337     186     292     163     314    1437    +        0.55    2.4   2.8  -
+Sutterellaceae       -          LKAP-Gut2_H12_082.seq -             1459    1483       1      25       1      29    1487    +        0.64    1.1   1.0  -
+Rhodothalassiaceae   -          LKAP-Gut2_H12_082.seq -              210     310     194     292     153     308    1318    +        0.78    2.3   2.2  -
+Gloeomargaritaceae   -          LKAP-Gut2_H12_082.seq -              234     329     193     288     168     308    1482    +        0.83    1.8   2.7  -
+Phormidiaceae        -          LKAP-Gut2_H12_082.seq -              236     292     193     247     173     279    1483    +        0.99    1.0   2.5  -
+Sutterellaceae       -          LKAP-Gut2_H12_082.seq -              245     311     193     259     173     281    1487    +         1.5   -0.2   2.3  -
+Woeseiaceae          -          LKAP-Gut2_H12_082.seq -              254     357     193     294     172     316    1476    +         1.6    0.8   2.7  -
+Gallionellaceae      -          LKAP-Gut2_H12_082.seq -              251     337     186     272     164     292    1385    +         2.4    0.5   2.3  -
+Prochlorococcaceae   -          LKAP-Gut2_H12_082.seq -              180     209      98     128      78     151    1465    +         3.2   -1.0   0.5  -
+Bernardetiaceae      -          LKAP-Gut2_H12_082.seq -              209     283     100     171      80     193    1481    +         3.7   -1.3   0.8  -
+Budviciaceae         -          LKAP-Gut2_H12_082.seq -             1457    1477       1      21       1      27    1483    +         6.2   -2.1   0.8  -
+#
+# Program:         hmmscan
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SCAN
+# Query file:      /root/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/LKAP-Gut2_H12_082.seq.fa
+# Target file:     /root/Github/Database/Family_DB
+# Option settings: nhmmscan --tblout /root/Github/Project_Mendel/Data/MSA_Scans_From_nhmmerscan/LKAP-Gut2_H12_082.seq.txt --noali /root/Github/Database/Family_DB /root/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/LKAP-Gut2_H12_082.seq.fa 
+# Current dir:     /root/Github/Project_Mendel/source_code
+# Date:            Mon Jun 22 10:47:35 2020
+# [ok]

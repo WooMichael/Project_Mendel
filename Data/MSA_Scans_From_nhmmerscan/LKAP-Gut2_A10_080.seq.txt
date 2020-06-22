@@ -1,0 +1,75 @@
+# target name           accession  query name            accession  hmmfrom hmm to alifrom  ali to envfrom  env to  modlen strand   E-value  score  bias  description of target
+#   ------------------- ----------  -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+Vibrionaceae            -          LKAP-Gut2_A10_080.seq -               76     614      40     541      17     556    1474    +     1.2e-15   50.3   7.9  -
+Moritellaceae           -          LKAP-Gut2_A10_080.seq -               66     631      24     552       4     556    1501    +     4.9e-14   45.0   8.8  -
+Shewanellaceae          -          LKAP-Gut2_A10_080.seq -               37     616      14     552       4     556    1483    +     3.2e-13   42.4   8.9  -
+Pseudoalteromonadaceae  -          LKAP-Gut2_A10_080.seq -               36     595      13     536       4     556    1469    +     4.8e-13   41.8   9.1  -
+Aeromonadaceae          -          LKAP-Gut2_A10_080.seq -               63     616      23     539       4     556    1496    +     5.4e-13   41.5   8.8  -
+Idiomarinaceae          -          LKAP-Gut2_A10_080.seq -               37     604      14     541       4     556    1466    +     6.1e-13   41.3   9.0  -
+Colwelliaceae           -          LKAP-Gut2_A10_080.seq -              253     612     214     549     132     556    1467    +     1.1e-10   34.1   4.8  -
+Ferrimonadaceae         -          LKAP-Gut2_A10_080.seq -               58     610      22     537       4     556    1475    +     1.8e-10   33.2   8.5  -
+Oceanospirillaceae      -          LKAP-Gut2_A10_080.seq -               39     603      16     539       4     556    1467    +     2.4e-10   32.8   8.2  -
+Celerinatantimonadaceae -          LKAP-Gut2_A10_080.seq -              252     604     216     536     194     556    1433    +     5.3e-10   31.9   4.9  -
+Alteromonadaceae        -          LKAP-Gut2_A10_080.seq -               41     442      18     393       4     426    1468    +     7.7e-10   31.2   8.0  -
+Thorselliaceae          -          LKAP-Gut2_A10_080.seq -              190     414     186     401     127     442    1419    +     7.8e-10   31.2   3.2  -
+Pasteurellaceae         -          LKAP-Gut2_A10_080.seq -              257     443     216     391     192     411    1422    +       1e-09   30.9   3.2  -
+Halieaceae              -          LKAP-Gut2_A10_080.seq -              191     597     157     534     136     553    1484    +     1.8e-09   30.0   4.4  -
+Chromatiaceae           -          LKAP-Gut2_A10_080.seq -               75     430      55     392      29     417    1455    +     1.8e-09   30.1   6.6  -
+Gammaproteobacteria     -          LKAP-Gut2_A10_080.seq -               54     438      28     390       7     410    1481    +       2e-09   29.7   7.7  -
+Saccharospirillaceae    -          LKAP-Gut2_A10_080.seq -              178     435     151     392     131     414    1468    +     3.5e-09   29.1   3.6  -
+Desulfuromonadaceae     -          LKAP-Gut2_A10_080.seq -              208     442     145     365     109     396    1518    +     6.7e-09   28.2   3.5  -
+Geobacteraceae          -          LKAP-Gut2_A10_080.seq -              202     449     149     384     128     503    1487    +     8.3e-09   27.8   3.2  -
+Microbulbiferaceae      -          LKAP-Gut2_A10_080.seq -              191     594     164     538     143     556    1480    +     8.8e-09   27.9   4.7  -
+Orbaceae                -          LKAP-Gut2_A10_080.seq -              260     457     200     385     180     406    1539    +     1.1e-08   27.3   3.0  -
+Pectobacteriaceae       -          LKAP-Gut2_A10_080.seq -               37     436      13     390       2     410    1477    +     1.6e-08   26.8   8.4  -
+Solirubrobacteraceae    -          LKAP-Gut2_A10_080.seq -              163     400     122     365     102     385    1443    +     1.9e-08   26.6   3.9  -
+Acidiferrobacteraceae   -          LKAP-Gut2_A10_080.seq -              190     592     165     539     144     553    1454    +       3e-08   26.1   4.4  -
+Thermoleophilaceae      -          LKAP-Gut2_A10_080.seq -               98     433      82     385       8     409    1494    +     3.3e-08   25.8   7.2  -
+Enterobacteriaceae      -          LKAP-Gut2_A10_080.seq -               52     452      25     405       5     426    1465    +     3.6e-08   25.8   7.5  -
+Cardiobacteriaceae      -          LKAP-Gut2_A10_080.seq -              261     529     217     466     195     554    1464    +     4.1e-08   25.9   4.7  -
+Acidithiobacillaceae    -          LKAP-Gut2_A10_080.seq -              241     407     212     368     143     422    1457    +     4.6e-08   25.3   3.1  -
+Piscirickettsiaceae     -          LKAP-Gut2_A10_080.seq -              183     454     147     401     108     427    1466    +     5.6e-08   25.0   3.7  -
+Morganellaceae          -          LKAP-Gut2_A10_080.seq -              254     444     213     392     181     414    1487    +     6.3e-08   25.0   3.3  -
+Erwiniaceae             -          LKAP-Gut2_A10_080.seq -               48     447      26     405       6     425    1483    +     9.9e-08   24.3   7.4  -
+Thermithiobacillaceae   -          LKAP-Gut2_A10_080.seq -              169     395     156     368     135     406    1419    +     1.5e-07   23.8   3.1  -
+Litoricolaceae          -          LKAP-Gut2_A10_080.seq -              193     603     153     534     133     554    1474    +     1.5e-07   23.8   4.4  -
+Yersiniaceae            -          LKAP-Gut2_A10_080.seq -               40     439      13     390       3     410    1473    +     1.5e-07   23.6   8.5  -
+Gracilibacteraceae      -          LKAP-Gut2_A10_080.seq -              330     551     163     370     140     450    1549    +     1.6e-07   24.2   3.9  -
+Cryptosporangiaceae     -          LKAP-Gut2_A10_080.seq -              178     408     153     369     133     389    1470    +       4e-07   22.3   3.8  -
+Hafniaceae              -          LKAP-Gut2_A10_080.seq -              231     445     200     404     167     425    1459    +       4e-07   22.2   3.3  -
+Woeseiaceae             -          LKAP-Gut2_A10_080.seq -              265     611     220     541     191     555    1476    +     4.4e-07   22.9   5.2  -
+Thioalkalispiraceae     -          LKAP-Gut2_A10_080.seq -              203     432     153     368     133     395    1479    +     6.6e-07   21.5   3.2  -
+Patulibacteraceae       -          LKAP-Gut2_A10_080.seq -              201     422     158     365     137     385    1494    +     6.9e-07   21.3   3.8  -
+Ectothiorhodospiraceae  -          LKAP-Gut2_A10_080.seq -              183     428     146     376     125     397    1463    +     7.3e-07   21.5   3.3  -
+Succinivibrionaceae     -          LKAP-Gut2_A10_080.seq -              221     414     189     369     166     396    1473    +     9.6e-07   21.0   3.1  -
+Nocardiaceae            -          LKAP-Gut2_A10_080.seq -              182     412     154     370     134     390    1472    +     1.2e-06   20.8   3.9  -
+Methylococcaceae        -          LKAP-Gut2_A10_080.seq -              188     443     148     388     128     410    1481    +     1.5e-06   20.4   3.2  -
+Frankiaceae             -          LKAP-Gut2_A10_080.seq -              197     424     156     369     136     389    1499    +     1.7e-06   20.4   3.9  -
+Actinomycetales         -          LKAP-Gut2_A10_080.seq -              227     452     156     367     134     387    1535    +     1.7e-06   20.2   3.8  -
+Conexibacteraceae       -          LKAP-Gut2_A10_080.seq -              215     437     157     365     132     385    1536    +     1.7e-06   19.9   3.7  -
+Granulosicoccaceae      -          LKAP-Gut2_A10_080.seq -              254     436     216     386     180     411    1471    +     1.9e-06   20.1   3.2  -
+Neisseriaceae           -          LKAP-Gut2_A10_080.seq -              269     465     217     401     196     421    1477    +     2.6e-06   19.7   3.2  -
+Actinospicaceae         -          LKAP-Gut2_A10_080.seq -              158     389     154     371     133     391    1425    +     3.6e-06   19.2   4.0  -
+Ruaniaceae              -          LKAP-Gut2_A10_080.seq -              211     446     154     377     134     397    1531    +     5.4e-06   18.3   3.9  -
+Desulfobulbaceae        -          LKAP-Gut2_A10_080.seq -              203     454     156     396     135     416    1483    +     7.5e-06   18.0   3.7  -
+Acetobacteraceae        -          LKAP-Gut2_A10_080.seq -              165     391     156     368      98     388    1438    +     8.2e-06   18.2   3.4  -
+Halothiobacillaceae     -          LKAP-Gut2_A10_080.seq -               87     459      44     392      18     412    1500    +       1e-05   17.6   6.8  -
+Methylothermaceae       -          LKAP-Gut2_A10_080.seq -              216     434     163     367     142     387    1491    +     1.1e-05   17.5   3.8  -
+Legionellaceae          -          LKAP-Gut2_A10_080.seq -              251     421     217     380     192     404    1446    +     1.6e-05   17.1   3.5  -
+Promicromonosporaceae   -          LKAP-Gut2_A10_080.seq -              182     421     153     380     133     401    1462    +     1.8e-05   16.9   4.0  -
+Peptococcaceae          -          LKAP-Gut2_A10_080.seq -              181     425     140     370     116     390    1479    +     8.2e-05   14.5   3.5  -
+Wenzhouxiangellaceae    -          LKAP-Gut2_A10_080.seq -              257     424     217     372     195     396    1472    +     0.00016   13.6   3.1  -
+Thiotrichaceae          -          LKAP-Gut2_A10_080.seq -              180     394     166     366     145     387    1421    +     0.00072   11.5   2.6  -
+Thermotogaceae          -          LKAP-Gut2_A10_080.seq -              207     431     150     362     128     382    1545    +       0.041    5.7   4.0  -
+Conexibacteraceae       -          LKAP-Gut2_A10_080.seq -              603     626     516     539     496     547    1536    +           4   -1.2   0.0  -
+Patulibacteraceae       -          LKAP-Gut2_A10_080.seq -              588     611     516     539     497     549    1494    +         7.9   -2.1   0.0  -
+#
+# Program:         hmmscan
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SCAN
+# Query file:      /root/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/LKAP-Gut2_A10_080.seq.fa
+# Target file:     /root/Github/Database/Family_DB
+# Option settings: nhmmscan --tblout /root/Github/Project_Mendel/Data/MSA_Scans_From_nhmmerscan/LKAP-Gut2_A10_080.seq.txt --noali /root/Github/Database/Family_DB /root/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/LKAP-Gut2_A10_080.seq.fa 
+# Current dir:     /root/Github/Project_Mendel/source_code
+# Date:            Mon Jun 22 10:34:25 2020
+# [ok]
