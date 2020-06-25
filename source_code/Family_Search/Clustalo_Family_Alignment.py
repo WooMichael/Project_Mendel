@@ -12,9 +12,9 @@ for fam in output:
     # this is the path from the Data Reference lib
     path = "/root/Github/Project_Mendel/Data/Reference_sequences_from_LTP/Family/" + str(family)
     # you want to use this when there are more than 1 sequence in a fasta file
-    clustalo_command_line = "clustalo -i " + path + " " + "-o /root/Github/Project_Mendel/Data/Aligned_Reference_Sequences_From_LTP/" + family
+    clustalo_command_line = "clustalo -i " + path + " " + "-o /root/Github/Project_Mendel/Data/Aligned_Reference_Sequences_From_LTP_Family/" + family
     # you want to use this when there are ONLY 1 sequence in a fasta file
-    copy_file_command_line = "cp " + path + " " + "/root/Github/Project_Mendel/Data/Aligned_Reference_Sequences_From_LTP/" + family
+    copy_file_command_line = "cp " + path + " " + "/root/Github/Project_Mendel/Data/Aligned_Reference_Sequences_From_LTP_Family/" + family
     # print(clustalo_command_line)
     # counter counts the amount of sequences in the fasta file...
     counter = 0

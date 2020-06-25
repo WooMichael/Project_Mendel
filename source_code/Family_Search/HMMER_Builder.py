@@ -1,10 +1,10 @@
 import os
 from Bio import SeqIO
 
-stream = os.popen('ls /root/Github/Project_Mendel/Data/Aligned_Reference_Sequences_From_LTP')
+stream = os.popen('ls /root/Github/Project_Mendel/Data/Aligned_Reference_Sequences_From_LTP_Family')
 output = stream.readlines()
-ref_path = "/root/Github/Project_Mendel/Data/Aligned_Reference_Sequences_From_LTP/"
-hmm_path = "/root/Github/Project_Mendel/Data/HMM_Builds_From_Aligned_Sequences_LTP/"
+ref_path = "/root/Github/Project_Mendel/Data/Aligned_Reference_Sequences_From_LTP_Family/"
+hmm_path = "/root/Github/Project_Mendel/Data/HMM_Builds_From_Aligned_Sequences_LTP_Family/"
 #single_seq_path = "/root/Github/Project_Mendel/Data/Single_Reference_Sequences_From_LTP/"
 for fam in output:
     family = str(fam).strip()
