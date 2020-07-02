@@ -3,37 +3,37 @@ import os
 from Bio import SeqIO
 
 # stream is the variable that allows me to use the command line in python
-stream = os.popen('ls /root/Github/Project_Mendel/Data/Reference_sequences_from_LTP/Genera/ ')
+stream = os.popen('ls /root/Github/Project_Mendel/Data/Reference_sequences_from_LTP/Species/ ')
 # the output is saved
 output = stream.readlines()
 # `print(output)
 # this is where the alignment begins
-for gen in output:
+for spec in output:
     # each gen is the name of the folder by family
     # print(gen)
     # path to the directory of families
-    gen = gen.strip()
-    path_gen = '/root/Github/Project_Mendel/Data/Reference_sequences_from_LTP/Genera/' + str(gen)
+    spec = spec.strip()
+    path_gen = '/root/Github/Project_Mendel/Data/Reference_sequences_from_LTP/Species/' + str(spec)
     # we do a list of the genera in that specific family
-    gen_stream = os.popen('ls ' + path_gen)
-    gen_output = gen_stream.readlines()
+    spec_stream = os.popen('ls ' + path_gen)
+    spec_output = spec_stream.readlines()
     # for each sequence in the genera depending of the family
-    for genera in gen_output:
+    for specie in spec_output:
         # print(genera)
-        genera = str(genera).strip()
+        specie = str(specie).strip()
         # this is the path from the Data Reference lib
-        path = path_gen + '/' + genera
+        path = path_gen + '/' + specie
         # you want to use this when there are more than 1 sequence in a fasta file
-        clustalo_command_line = "clustalo -i " + path + " " + "-o " + "/root/Github/Project_Mendel/Data/Genera_Search_Data/Aligned_Reference_Sequences_From_LTP_Genera/" + gen + "/" + genera
+        clustalo_command_line = "clustalo -i " + path + " " + "-o " + "/root/Github/Project_Mendel/Data/Species_Search_Data/Aligned_Reference_Sequences_From_LTP_Species/" + spec + "/" + specie
         # you want to use this when there are ONLY 1 sequence in a fasta file
-        copy_file_command_line = "cp " + path + " " + "/root/Github/Project_Mendel/Data/Genera_Search_Data/Aligned_Reference_Sequences_From_LTP_Genera/" + gen + "/" + genera
+        copy_file_command_line = "cp " + path + " " + "/root/Github/Project_Mendel/Data/Species_Search_Data/Aligned_Reference_Sequences_From_LTP_Species/" + spec + "/" + specie
         # print(clustalo_command_line)
         # counter counts the amount of sequences in the fasta file...
         counter = 0
         # If the directories exist create them if not its okay....
-        dir_gen_path = "/root/Github/Project_Mendel/Data/Genera_Search_Data/Aligned_Reference_Sequences_From_LTP_Genera/" + gen + "/"
-        if not os.path.exists(dir_gen_path):
-            os.mkdir(dir_gen_path)
+        dir_spec_path = "/root/Github/Project_Mendel/Data/Species_Search_Data/Aligned_Reference_Sequences_From_LTP_Species/" + spec + "/"
+        if not os.path.exists(dir_spec_path):
+            os.mkdir(dir_spec_path)
 
         for seq_record in SeqIO.parse(path, "fasta"):
             # counts how many record (sequences) there are in the family record
@@ -46,5 +46,6 @@ for gen in output:
         if (counter > 1):
             print("more than 1 seq")
             os.popen(clustalo_command_line)
+        exit(2134123)
 
 #  print(path)
