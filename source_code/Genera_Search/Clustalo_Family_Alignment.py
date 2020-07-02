@@ -1,4 +1,5 @@
 import os
+
 from Bio import SeqIO
 
 # stream is the variable that allows me to use the command line in python
@@ -8,26 +9,35 @@ output = stream.readlines()
 # `print(output)
 # this is where the alignment begins
 for gen in output:
-    print(gen)
-    # family = str(fam).strip()
-    # # this is the path from the Data Reference lib
-    # path = "/root/Github/Project_Mendel/Data/Reference_sequences_from_LTP/Family/" + str(family)
-    # # you want to use this when there are more than 1 sequence in a fasta file
-    # clustalo_command_line = "clustalo -i " + path + " " + "-o /root/Github/Project_Mendel/Data/Aligned_Reference_Sequences_From_LTP_Family/" + family
-    # # you want to use this when there are ONLY 1 sequence in a fasta file
-    # copy_file_command_line = "cp " + path + " " + "/root/Github/Project_Mendel/Data/Aligned_Reference_Sequences_From_LTP_Family/" + family
-    # # print(clustalo_command_line)
-    # # counter counts the amount of sequences in the fasta file...
-    # counter = 0
-    # for seq_record in SeqIO.parse(path, "fasta"):
-    #     # counts how many record (sequences) there are in the family record
-    #     counter += 1
-    #     # print(counter)
-    # # after counting the records we then choose which command we want to run below
-    # if (counter == 1):
-    #     print("only 1 seq")
-    #     os.popen(copy_file_command_line)
-    # if (counter > 1):
-    #     print("more than 1 seq")
-    #     os.popen(clustalo_command_line)
+    # each gen is the name of the folder by family
+    # print(gen)
+    # path to the directory of families
+    path_gen = '/root/Github/Project_Mendel/Data/Reference_sequences_from_LTP/Genera/' + str(gen)
+    # we do a list of the genera in that specific family
+    gen_stream = os.popen('ls ' + path_gen)
+    gen_output = gen_stream.readlines()
+    #for each sequence in the genera depending of the family
+    for genera in gen_output:
+        # print(genera)
+        genera = str(genera).strip()
+        # this is the path from the Data Reference lib
+        path = path_gen + '/' + genera
+        # you want to use this when there are more than 1 sequence in a fasta file
+        clustalo_command_line = "clustalo -i " + path + " " + "-o /root/Github/Project_Mendel/Data/Aligned_Reference_Sequences_From_LTP_Genera/" + genera
+        # you want to use this when there are ONLY 1 sequence in a fasta file
+        copy_file_command_line = "cp " + path + " " + "/root/Github/Project_Mendel/Data/Aligned_Reference_Sequences_From_LTP_Genera/" + genera
+        # print(clustalo_command_line)
+        # counter counts the amount of sequences in the fasta file...
+        counter = 0
+        for seq_record in SeqIO.parse(path, "fasta"):
+            # counts how many record (sequences) there are in the family record
+            counter += 1
+            # print(counter)
+        # after counting the records we then choose which command we want to run below
+        if (counter == 1):
+            print("only 1 seq")
+            os.popen(copy_file_command_line)
+        if (counter > 1):
+            print("more than 1 seq")
+            os.popen(clustalo_command_line)
 #  print(path)

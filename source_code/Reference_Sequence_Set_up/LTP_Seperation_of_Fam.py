@@ -38,9 +38,9 @@ for record in SeqIO.parse(LTP_path, "fasta"):
         # we want to use  "a" for file opener because we want to append new information to it...
         with open(Fam_path + Family + '.fa', "a") as Family_handle:
             SeqIO.write(record, Family_handle, "fasta")
-        with open(Genera_Family_path + Family + "_" + Genera + '.fa', "a") as Genera_handle:
+        with open(Genera_Family_path + Genera + '.fa', "a") as Genera_handle:
             SeqIO.write(record, Genera_handle, "fasta")
-        with open(Species_Genera_path + Family + "_" + Genera + "_" + Species + '.fa', "a") as Species_handle:
+        with open(Species_Genera_path + Species + '.fa', "a") as Species_handle:
             SeqIO.write(record, Species_handle, "fasta")
 
     if (len(record_description) == 9):
@@ -64,9 +64,9 @@ for record in SeqIO.parse(LTP_path, "fasta"):
         # we want to use  "a" for file opener because we want to append new information to it...
         with open(Fam_path + Family + '.fa', "a") as Family_handle:
             SeqIO.write(record, Family_handle, "fasta")
-        with open(Genera_Family_path + Family + "_" + Genera + '.fa', "a") as Genera_handle:
+        with open(Genera_Family_path + Genera + '.fa', "a") as Genera_handle:
             SeqIO.write(record, Genera_handle, "fasta")
-        with open(Species_Genera_path + Family + "_" + Genera + "_" + Species + '.fa', "a") as Species_handle:
+        with open(Species_Genera_path + Species + '.fa', "a") as Species_handle:
             SeqIO.write(record, Species_handle, "fasta")
 
     if (len(record_description) == 10):
@@ -90,9 +90,9 @@ for record in SeqIO.parse(LTP_path, "fasta"):
         # we want to use  "a" for file opener because we want to append new information to it...
         with open(Fam_path + Family + '.fa', "a") as Family_handle:
             SeqIO.write(record, Family_handle, "fasta")
-        with open(Genera_Family_path + Family + "_" + Genera + '.fa', "a") as Genera_handle:
+        with open(Genera_Family_path + Genera + '.fa', "a") as Genera_handle:
             SeqIO.write(record, Genera_handle, "fasta")
-        with open(Species_Genera_path + Family + "_" + Genera + "_" + Species + '.fa', "a") as Species_handle:
+        with open(Species_Genera_path + Species + '.fa', "a") as Species_handle:
             SeqIO.write(record, Species_handle, "fasta")
 
     if (len(record_description) == 11):
@@ -115,9 +115,9 @@ for record in SeqIO.parse(LTP_path, "fasta"):
         # we want to use  "a" for file opener because we want to append new information to it...
         with open(Fam_path + Family + '.fa', "a") as Family_handle:
             SeqIO.write(record, Family_handle, "fasta")
-        with open(Genera_Family_path + Family + "_" + Genera + '.fa', "a") as Genera_handle:
+        with open(Genera_Family_path + Genera + '.fa', "a") as Genera_handle:
             SeqIO.write(record, Genera_handle, "fasta")
-        with open(Species_Genera_path + Family + "_" + Genera + "_" + Species + '.fa', "a") as Species_handle:
+        with open(Species_Genera_path + Species + '.fa', "a") as Species_handle:
             SeqIO.write(record, Species_handle, "fasta")
 Family_ls = list(dict.fromkeys(Family_ls))
 Genera_ls = list(dict.fromkeys(Genera_ls))
