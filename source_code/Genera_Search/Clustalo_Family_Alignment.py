@@ -18,9 +18,9 @@ for gen in output:
     gen_stream = os.popen('ls ' + path_gen)
     gen_output = gen_stream.readlines()
     dir_gen_path = "/home/ubuntu/Github/Project_Mendel/Data/Genera_Search_Data/Aligned_Reference_Sequences_From_LTP_Genera/" + gen
-   # print(dir_gen_path)
-    #if not os.path.exists(dir_gen_path):
-     #       os.mkdir(dir_gen_path)
+    # print(dir_gen_path)
+    # if not os.path.exists(dir_gen_path):
+    #       os.mkdir(dir_gen_path)
     # for each sequence in the genera depending of the family
     for genera in gen_output:
         # print(genera)
@@ -28,9 +28,9 @@ for gen in output:
         # this is the path from the Data Reference lib
         path = path_gen + '/' + genera
         # you want to use this when there are more than 1 sequence in a fasta file
-        clustalo_command_line = "clustalo -i " + path + " " + "-o " + "/home/ubuntu/Github/Project_Mendel/Data/Genera_Search_Data/Aligned_Reference_Sequences_From_LTP_Genera/" + gen + "/" + genera
+        clustalo_command_line = "clustalo -i " + path + " " + "-o " + "/home/ubuntu/Github/Project_Mendel/Data/Genera_Search_Data/Aligned_Reference_Sequences_From_LTP_Genera/" + gen + "/" + gen + "_" + genera
         # you want to use this when there are ONLY 1 sequence in a fasta file
-        copy_file_command_line = "cp " + path + " " + "/home/ubuntu/Github/Project_Mendel/Data/Genera_Search_Data/Aligned_Reference_Sequences_From_LTP_Genera/" + gen + "/" + genera
+        copy_file_command_line = "cp " + path + " " + "/home/ubuntu/Github/Project_Mendel/Data/Genera_Search_Data/Aligned_Reference_Sequences_From_LTP_Genera/" + gen + "/" + gen + "_" + genera
         # print(clustalo_command_line)
         # counter counts the amount of sequences in the fasta file...
         counter = 0

@@ -24,14 +24,14 @@ for spec in output:
         # this is the path from the Data Reference lib
         path = path_gen + '/' + specie
         # you want to use this when there are more than 1 sequence in a fasta file
-        clustalo_command_line = "clustalo -i " + path + " " + "-o " + "/home/ubuntu/Github/Project_Mendel/Data/Species_Search_Data/Aligned_Reference_Sequences_From_LTP_Species/" + spec + "/" + specie
+        clustalo_command_line = "clustalo -i " + path + " " + "-o " + "/home/ubuntu/Github/Project_Mendel/Data/Species_Search_Data/Aligned_Reference_Sequences_From_LTP_Species/" + spec + "/" + spec + "_" + specie
         # you want to use this when there are ONLY 1 sequence in a fasta file
-        copy_file_command_line = "cp " + path + " " + "/home/ubuntu/Github/Project_Mendel/Data/Species_Search_Data/Aligned_Reference_Sequences_From_LTP_Species/" + spec + "/" + specie
+        copy_file_command_line = "cp " + path + " " + "/home/ubuntu/Github/Project_Mendel/Data/Species_Search_Data/Aligned_Reference_Sequences_From_LTP_Species/" + spec + "/" + spec + "_" + specie
         # print(clustalo_command_line)
         # counter counts the amount of sequences in the fasta file...
         counter = 0
         # If the directories exist create them if not its okay....
-        dir_spec_path = "/home/ubuntu/Github/Project_Mendel/Data/Species_Search_Data/Aligned_Reference_Sequences_From_LTP_Species/" + spec + "/" 
+        dir_spec_path = "/home/ubuntu/Github/Project_Mendel/Data/Species_Search_Data/Aligned_Reference_Sequences_From_LTP_Species/" + spec + "/"
         if not os.path.exists(dir_spec_path):
             os.mkdir(dir_spec_path)
         for seq_record in SeqIO.parse(path, "fasta"):
@@ -45,6 +45,5 @@ for spec in output:
         if (counter > 1):
             print("more than 1 seq")
             os.popen(clustalo_command_line)
-    
 
 #  print(path)
