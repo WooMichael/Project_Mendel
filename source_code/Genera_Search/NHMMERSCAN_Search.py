@@ -1,13 +1,13 @@
 import os
 import sys
 
-hmmdb_path = "/root/Github/Database/Family_DB"
+hmmdb_path = "/root/Github/Database/Genera_DB"
 # you have to seperate each fasta sequence to its own file before running the hmmscan... brb....to be continued...
 # Usage: hmmscan [-options] <hmmdb> <seqfile>.
 seq_file = "~/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/"
 stream = os.popen("ls " + seq_file)
 output = stream.readlines()
-outpu.t_from_search = "~/Github/Project_Mendel/Data/MSA_Scans_From_nhmmerscan/"
+output_from_search = "~/Github/Project_Mendel/Data/Genera_Search_Data/MSA_Scans_From_nhmmerscan/"
 counter = 0
 for seq in output:
     # print(seq)

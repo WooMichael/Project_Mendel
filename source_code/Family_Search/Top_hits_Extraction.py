@@ -1,9 +1,9 @@
 import os
 
-stream = os.popen('ls /root/Github/Project_Mendel/Data/MSA_Scans_From_nhmmerscan/')
+stream = os.popen('ls /root/Github/Project_Mendel/Data/Family_Search_Data/MSA_Scans_From_nhmmerscan/')
 output = stream.readlines()
-msa_path = "/root/Github/Project_Mendel/Data/MSA_Scans_From_nhmmerscan/"
-top_hit_output = "/root/Github/Project_Mendel/Data/Top_Hits_Scans/"
+msa_path = "/root/Github/Project_Mendel/Data/Family_Search_Data/MSA_Scans_From_nhmmerscan/"
+top_hit_output = "/root/Github/Project_Mendel/Data/Family_Search_Data/Top_Hits_Scans/"
 with open(top_hit_output + "Scanned_Results.csv", "a") as file:
     file.write("Query Name, Top Hit, E-Value, Bit Score \n")
     file.close()
