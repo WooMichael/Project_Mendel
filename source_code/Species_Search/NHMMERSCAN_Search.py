@@ -1,7 +1,7 @@
 import os
 import sys
 
-hmmdb_path = "/root/Github/Database/Species_DB"
+hmmdb_path = "/home/ubuntu/Github/Database/Species_DB"
 # you have to seperate each fasta sequence to its own file before running the hmmscan... brb....to be continued...
 # Usage: hmmscan [-options] <hmmdb> <seqfile>.
 seq_file = "~/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/"
