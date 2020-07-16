@@ -1,0 +1,16 @@
+# target name                    accession  query name                 accession  hmmfrom hmm to alifrom  ali to envfrom  env to  modlen strand   E-value  score  bias  description of target
+#            ------------------- ----------       -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+Moraxellaceae_Psychrobacter      -          LKAP-TSAKG2_B03_029_2018_2 -              102     242      96     240      46     251    1491    +       0.013    8.8   1.2  -
+Moraxellaceae_Moraxella          -          LKAP-TSAKG2_B03_029_2018_2 -               63     228      67     240      47     251    1446    +         0.2    5.0   1.7  -
+Rhodanobacteraceae_Aquimonas     -          LKAP-TSAKG2_B03_029_2018_2 -               71     231      76     240      56     253    1433    +        0.25    5.7   1.7  -
+Brevibacteriaceae_Brevibacterium -          LKAP-TSAKG2_B03_029_2018_2 -              118     256      96     239      71     248    1485    +        0.29    4.2   1.1  -
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /home/ubuntu/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/LKAP-TSAKG2_B03_029_2018_2.fa
+# Target file:     /home/ubuntu/Github/Database/Genera_DB
+# Option settings: nhmmscan --tblout /home/ubuntu/Github/Project_Mendel/Data/Genera_Search_Data/MSA_Scans_From_nhmmerscan/LKAP-TSAKG2_B03_029_2018_2.txt --noali /home/ubuntu/Github/Database/Genera_DB /home/ubuntu/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/LKAP-TSAKG2_B03_029_2018_2.fa 
+# Current dir:     /home/ubuntu/Github/Project_Mendel/source_code/Genera_Search
+# Date:            Thu Jul 16 21:11:23 2020
+# [ok]

@@ -2723,11 +2723,11 @@ Haloferacaceae_Halohasta                         -          A0513_LKAP-FHGF1_B09
 Desulfohalobiaceae_Desulfonatronospira           -          A0513_LKAP-FHGF1_B09_077 -               34     158       5     136       2     148    1528    +     9.9e-07   23.9   3.1  -
 #
 # Program:         hmmscan
-# Version:         3.3 (Nov 2019)
+# Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /root/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/A0513_LKAP-FHGF1_B09_077.fa
-# Target file:     /root/Github/Database/Genera_DB
-# Option settings: nhmmscan --tblout /root/Github/Project_Mendel/Data/Genera_Search_Data/MSA_Scans_From_nhmmerscan/A0513_LKAP-FHGF1_B09_077.txt --noali /root/Github/Database/Genera_DB /root/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/A0513_LKAP-FHGF1_B09_077.fa 
-# Current dir:     /root/Github/Project_Mendel/source_code/Genera_Search
-# Date:            Mon Jul  6 17:13:38 2020
+# Query file:      /home/ubuntu/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/A0513_LKAP-FHGF1_B09_077.fa
+# Target file:     /home/ubuntu/Github/Database/Genera_DB
+# Option settings: nhmmscan --tblout /home/ubuntu/Github/Project_Mendel/Data/Genera_Search_Data/MSA_Scans_From_nhmmerscan/A0513_LKAP-FHGF1_B09_077.txt --noali /home/ubuntu/Github/Database/Genera_DB /home/ubuntu/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/A0513_LKAP-FHGF1_B09_077.fa 
+# Current dir:     /home/ubuntu/Github/Project_Mendel/source_code/Genera_Search
+# Date:            Thu Jul 16 19:55:03 2020
 # [ok]

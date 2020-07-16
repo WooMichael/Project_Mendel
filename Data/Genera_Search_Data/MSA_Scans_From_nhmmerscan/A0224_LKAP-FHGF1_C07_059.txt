@@ -2724,11 +2724,11 @@ Desulfohalobiaceae_Desulfonatronospira           -          A0224_LKAP-FHGF1_C07
 Acidaminococcaceae_Phascolarctobacterium         -          A0224_LKAP-FHGF1_C07_059 -               21      66       6      48       1      59    1610    +         2.4    2.7   0.1  -
 #
 # Program:         hmmscan
-# Version:         3.3 (Nov 2019)
+# Version:         3.1b2 (February 2015)
 # Pipeline mode:   SCAN
-# Query file:      /root/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/A0224_LKAP-FHGF1_C07_059.fa
-# Target file:     /root/Github/Database/Genera_DB
-# Option settings: nhmmscan --tblout /root/Github/Project_Mendel/Data/Genera_Search_Data/MSA_Scans_From_nhmmerscan/A0224_LKAP-FHGF1_C07_059.txt --noali /root/Github/Database/Genera_DB /root/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/A0224_LKAP-FHGF1_C07_059.fa 
-# Current dir:     /root/Github/Project_Mendel/source_code/Genera_Search
-# Date:            Mon Jul  6 17:12:24 2020
+# Query file:      /home/ubuntu/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/A0224_LKAP-FHGF1_C07_059.fa
+# Target file:     /home/ubuntu/Github/Database/Genera_DB
+# Option settings: nhmmscan --tblout /home/ubuntu/Github/Project_Mendel/Data/Genera_Search_Data/MSA_Scans_From_nhmmerscan/A0224_LKAP-FHGF1_C07_059.txt --noali /home/ubuntu/Github/Database/Genera_DB /home/ubuntu/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/A0224_LKAP-FHGF1_C07_059.fa 
+# Current dir:     /home/ubuntu/Github/Project_Mendel/source_code/Genera_Search
+# Date:            Thu Jul 16 19:54:49 2020
 # [ok]

@@ -1,0 +1,17 @@
+# target name                     accession  query name                 accession  hmmfrom hmm to alifrom  ali to envfrom  env to  modlen strand   E-value  score  bias  description of target
+#             ------------------- ----------       -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+Paenibacillaceae_Aneurinibacillus -          LKAP-TSAKG2_F07_053_2018_2 -              117     165     104     151      84     171    1483    +        0.35    3.8   0.4  -
+Bacillaceae_Salisediminibacterium -          LKAP-TSAKG2_F07_053_2018_2 -               59     129      65     131      62     155    1449    +        0.48    3.5   2.8  -
+Bacillaceae_Anaerobacillus        -          LKAP-TSAKG2_F07_053_2018_2 -              134     165     105     135      85     158    1512    +         1.2    1.9   1.3  -
+Bacillales_Desulfuribacillus      -          LKAP-TSAKG2_F07_053_2018_2 -              127     165     105     142      85     163    1495    +         1.8    1.4   0.9  -
+Bacillaceae_Viridibacillus        -          LKAP-TSAKG2_F07_053_2018_2 -               71     152      64     140      43     156    1505    +         1.8    1.3   4.5  -
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /home/ubuntu/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/LKAP-TSAKG2_F07_053_2018_2.fa
+# Target file:     /home/ubuntu/Github/Database/Genera_DB
+# Option settings: nhmmscan --tblout /home/ubuntu/Github/Project_Mendel/Data/Genera_Search_Data/MSA_Scans_From_nhmmerscan/LKAP-TSAKG2_F07_053_2018_2.txt --noali /home/ubuntu/Github/Database/Genera_DB /home/ubuntu/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/LKAP-TSAKG2_F07_053_2018_2.fa 
+# Current dir:     /home/ubuntu/Github/Project_Mendel/source_code/Genera_Search
+# Date:            Thu Jul 16 21:16:31 2020
+# [ok]

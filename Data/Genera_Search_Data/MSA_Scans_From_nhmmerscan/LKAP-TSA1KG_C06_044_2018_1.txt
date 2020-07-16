@@ -1,0 +1,16 @@
+# target name                  accession  query name                 accession  hmmfrom hmm to alifrom  ali to envfrom  env to  modlen strand   E-value  score  bias  description of target
+#          ------------------- ----------       -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+Oceanospirillaceae_Marinomonas -          LKAP-TSA1KG_C06_044_2018_1 -               74     193      85     223      45     230    1467    +       0.015    8.2   0.0  -
+Alteromonadaceae_Agarivorans   -          LKAP-TSA1KG_C06_044_2018_1 -               79     198      85     223      45     231    1454    +       0.025    7.8   0.0  -
+Shewanellaceae_Psychrobium     -          LKAP-TSA1KG_C06_044_2018_1 -               74     193      85     223      65     232    1469    +       0.059    7.4   0.0  -
+Geobacteraceae_Geoalkalibacter -          LKAP-TSA1KG_C06_044_2018_1 -              120     225     119     222      98     231    1556    +        0.33    3.8   0.1  -
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /home/ubuntu/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/LKAP-TSA1KG_C06_044_2018_1.fa
+# Target file:     /home/ubuntu/Github/Database/Genera_DB
+# Option settings: nhmmscan --tblout /home/ubuntu/Github/Project_Mendel/Data/Genera_Search_Data/MSA_Scans_From_nhmmerscan/LKAP-TSA1KG_C06_044_2018_1.txt --noali /home/ubuntu/Github/Database/Genera_DB /home/ubuntu/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/LKAP-TSA1KG_C06_044_2018_1.fa 
+# Current dir:     /home/ubuntu/Github/Project_Mendel/source_code/Genera_Search
+# Date:            Thu Jul 16 21:03:19 2020
+# [ok]

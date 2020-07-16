@@ -1,0 +1,14 @@
+# target name               accession  query name                 accession  hmmfrom hmm to alifrom  ali to envfrom  env to  modlen strand   E-value  score  bias  description of target
+#       ------------------- ----------       -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+Moraxellaceae_Psychrobacter -          LKAP-TSAKG2_D05_041_2018_2 -               12     249       7     228       1     241    1491    +     0.00087   12.7  10.0  -
+Cellvibrionaceae_Eionea     -          LKAP-TSAKG2_D05_041_2018_2 -              216     254     196     234     175     246    1469    +        0.65    3.1   0.0  -
+#
+# Program:         hmmscan
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SCAN
+# Query file:      /home/ubuntu/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/LKAP-TSAKG2_D05_041_2018_2.fa
+# Target file:     /home/ubuntu/Github/Database/Genera_DB
+# Option settings: nhmmscan --tblout /home/ubuntu/Github/Project_Mendel/Data/Genera_Search_Data/MSA_Scans_From_nhmmerscan/LKAP-TSAKG2_D05_041_2018_2.txt --noali /home/ubuntu/Github/Database/Genera_DB /home/ubuntu/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/LKAP-TSAKG2_D05_041_2018_2.fa 
+# Current dir:     /home/ubuntu/Github/Project_Mendel/source_code/Genera_Search
+# Date:            Thu Jul 16 21:14:27 2020
+# [ok]
