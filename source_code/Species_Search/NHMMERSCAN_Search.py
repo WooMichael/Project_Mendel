@@ -1,13 +1,22 @@
 import os
 import sys
 
+# hmmdb_path = "/root/Github/Database/Species_DB"
+# # you have to seperate each fasta sequence to its own file before running the hmmscan... brb....to be continued...
+# # Usage: hmmscan [-options] <hmmdb> <seqfile>.
+# seq_file = "/root/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/"
+# stream = os.popen("ls " + seq_file)
+# output = stream.readlines()
+# output_from_search = "/root/Github/Project_Mendel/Data/Species_Search_Data/MSA_Scans_From_nhmmerscan/"
+#EC2
 hmmdb_path = "/home/ubuntu/Github/Database/Species_DB"
 # you have to seperate each fasta sequence to its own file before running the hmmscan... brb....to be continued...
 # Usage: hmmscan [-options] <hmmdb> <seqfile>.
 seq_file = "/home/ubuntu/Github/Project_Mendel/Data/Metadata/Experimental_Sequences_Kaplan/"
 stream = os.popen("ls " + seq_file)
 output = stream.readlines()
-output_from_search = "home/ubuntu/Github/Project_Mendel/Data/Species_Search_Data/MSA_Scans_From_nhmmerscan/"
+output_from_search = "/home/ubuntu/Github/Project_Mendel/Data/Species_Search_Data/MSA_Scans_From_nhmmerscan/"
+
 counter = 0
 for seq in output:
     # print(seq)
